@@ -17,7 +17,6 @@
   "license": "ISC",
   "jest": {
     "collectCoverage": true,
-    "coverageFormats": ["json", "html"],
     "setupTestFrameworkScriptFile": "<rootDir>/setup-jasmine-env.js"
   }
 }
