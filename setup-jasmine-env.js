@@ -7,5 +7,5 @@
 jasmine.VERBOSE = true;
 
 require('jasmine-reporters');
-var reporter = new jasmine.JUnitXmlReporter("output/");
+var reporter = new jasmine.JUnitXmlReporter("output/", true, false, null, true);
 jasmine.getEnv().addReporter(reporter);
